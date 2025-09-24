@@ -11,6 +11,13 @@ apoorti-backend/
 │   └── logger.js                 # Winston/Morgan logger config
 │
 ├── src/
+|   ├── ai/
+│     ├── models/                # ML models (saved as .pkl/.onnx)
+│     ├── cropQualityService.js   # CV model inference
+│     ├── anomalyService.js       # Fraud/anomaly detection
+│     ├── forecastService.js      # Demand/price prediction
+│     └── trustEngine.js          # Reputation scoring
+
 │   ├── middleware/
 │   │   ├── authMiddleware.js     # JWT authentication
 │   │   ├── errorMiddleware.js    # Centralized error handling
