@@ -17,7 +17,7 @@ apoorti-backend/
 │     ├── anomalyService.js       # Fraud/anomaly detection
 │     ├── forecastService.js      # Demand/price prediction
 │     └── trustEngine.js          # Reputation scoring
-
+|
 │   ├── middleware/
 │   │   ├── authMiddleware.js     # JWT authentication
 │   │   ├── errorMiddleware.js    # Centralized error handling
